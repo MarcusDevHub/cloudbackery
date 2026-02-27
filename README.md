@@ -15,21 +15,22 @@ Aplicação web para gerenciamento de uma padaria, desenvolvida com **React**, *
 
 ## 📁 Estrutura do Projeto
 
-cloudbackery/
-├── public/ # Arquivos públicos estáticos
-├── src/
-│ ├── assets/ # Imagens e recursos estáticos
-│ ├── App.jsx # Componente principal da aplicação
-│ ├── App.css # Estilos do componente principal
-│ ├── firebaseConfig.js # Configuração e inicialização do Firebase
-│ ├── index.css # Estilos globais
-│ └── main.jsx # Ponto de entrada da aplicação React
-├── index.html # HTML base da aplicação
-├── package.json # Dependências e scripts do projeto
-├── vite.config.js # Configuração do Vite
-└── eslint.config.js # Configuração do ESLint
 
-text
+>cloudbackery/
+>├── public/ # Arquivos públicos estáticos
+>├── src/
+>│ ├── assets/ # Imagens e recursos estáticos
+>│ ├── App.jsx # Componente principal da aplicação
+>│ ├── App.css # Estilos do componente principal
+>│ ├── firebaseConfig.js # Configuração e inicialização do Firebase
+>│ ├── index.css # Estilos globais
+>│ └── main.jsx # Ponto de entrada da aplicação React
+>├── index.html # HTML base da aplicação
+>├── package.json # Dependências e scripts do projeto
+>├── vite.config.js # Configuração do Vite
+>└── eslint.config.js # Configuração do ESLint
+
+
 
 ---
 
@@ -68,6 +69,9 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
+
+```
+
 ▶️ Como Rodar o Projeto
 1. Clone o repositório
 bash
